@@ -1,0 +1,12 @@
+#logo {
+    position: relative;
+    background-image: url('src/assets/logo.png');
+    background-size: cover;
+    width: 68px;
+    height: 67.66px;    
+}
+
+.nav-bar {
+    background-color: rgba(174, 226, 149, 1);
+    text-transform: uppercase;
+}
