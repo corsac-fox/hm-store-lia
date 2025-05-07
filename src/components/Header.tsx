@@ -4,12 +4,12 @@ import './Header.css';
 
 function Header () {
     return (
-        <div>
-            <div>
+        <div className='header'>
+            <div className='logo-box'>
                 <div id='logo'></div>
                 <div>
                     <p>embroidery</p>
-                    <p>by Lia</p>
+                    <p className='brand-font'>by Lia</p>
                 </div>
             </div>
             <div className='nav-bar'>
@@ -18,7 +18,10 @@ function Header () {
                 <div>инд. заказ</div>
                 <div>контакты</div>
             </div>
-            <div>search and basket</div>
+            <div className='icons'>
+                <div id='search'></div>
+                <div id='basket'></div>
+            </div>
         </div>
     )
 }

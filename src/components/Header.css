@@ -1,12 +1,38 @@
+.header {
+    display: flex;
+}
+
+.logo-box {
+    font-size: 1.2em; 
+}
+
 #logo {
-    position: relative;
+    /* position: relative; */
     background-image: url('src/assets/logo.png');
-    background-size: cover;
+    background-size: contain;
     width: 68px;
-    height: 67.66px;    
+    height: 67.66px;      
+}
+
+.brand-font {
+    font: 1.8em 'Ribeye', serif;
 }
 
 .nav-bar {
     background-color: rgba(174, 226, 149, 1);
     text-transform: uppercase;
+}
+
+.icons div {
+    background-size: 30px 30px;
+    width: 30px;
+    height: 30px;    
+}
+
+#search {
+    background-image: url('src/assets/search-icon.png');    
+}
+
+#basket {
+    background-image: url('src/assets/basket-icon.png');    
 }
