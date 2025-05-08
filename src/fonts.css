@@ -2,3 +2,8 @@
     font-family: Ribeye;
     src: url('src/assets/fonts/Ribeye-Regular.woff2');
 }
+
+@font-face {
+    font-family: Roboto;
+    src: url('src/assets/fonts/Roboto-VariableFont_wdth,wght.woff2');
+}
