@@ -34,7 +34,7 @@
     text-align: center;
     padding: 0;
     margin: auto;
-    flex-grow: 0.45;    
+    flex-grow: 0.45;   /* nav-bar занимает 45% свободного места в header */ 
     justify-content: space-between;
 }
 

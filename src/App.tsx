@@ -15,6 +15,7 @@ function App() {
     <Header/>
     <HeroSection/>
     <About/>
+    <hr/>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -24,7 +25,7 @@ function App() {
         </a>
       </div>
       <h5>Vite + React</h5>
-      {/* <div className="card"> */}
+      {/* <div*/}
       <div>
         {/* <button onClick={() => setCount((count) => count + 1)}>
           count is {count}

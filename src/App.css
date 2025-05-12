@@ -4,6 +4,13 @@
   /* padding: 2rem; */
 }
 
+hr {
+  border-top: 6px solid rgba(174, 226, 149, 1);
+  border-left: none;
+  max-width: 730px;
+  margin: 4.5% auto;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -31,7 +38,3 @@
     animation: logo-spin infinite 20s linear;
   }
 }
-
-/* .card {
-  padding: 2em;
-} */
