@@ -4,12 +4,12 @@ import './ProductCard.css';
 
 function ProductCard () {
     return (
-        <div className='card'>
-            <div>photo</div>
-            <div>name</div>
-            <div>price</div>
-            <div>button</div>
-        </div>
+        <span className='card'>
+            <img src='src\assets\photos\products\shopper-bag.jpg' alt='product-photo' width={211} height={281}></img>
+            <p>Шоппер с курочкой</p>
+            <p className='product-price'>2 700 ₽</p>
+            <button>купить</button>
+        </span>
     )
 }
 

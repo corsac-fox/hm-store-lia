@@ -8,11 +8,21 @@ hr {
   border-top: 6px solid rgba(174, 226, 149, 1);
   border-left: none;
   max-width: 730px;
-  margin: 4.5% auto;
+  margin: 4.5% auto 3% auto;
+}
+
+.product-section h2{
+  text-align: center;
+  margin: 3% auto;
+}
+
+.product-section div {
+  display: flex;
+  justify-content: space-between;;
 }
 
 .logo {
-  height: 6em;
+  height: 4em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;

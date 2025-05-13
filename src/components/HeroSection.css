@@ -26,3 +26,17 @@
 .hero-content h1 {
     color: rgba(255, 236, 92, 1);
 }
+
+.hero-btns {
+    padding-top: 3%;
+}
+
+.hero-btns > * {
+    height: 43px;
+    width: 199px;   
+    margin-right: 13%;
+}
+
+.hero-btns :first-child {
+    background-color: white;
+}

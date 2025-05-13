@@ -6,16 +6,26 @@ import Header from './components/Header'
 import HeroSection from './components/HeroSection'
 import './fonts.css'
 import About from './components/About'
+import ProductCard from './components/ProductCard'
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-    <Header/>
-    <HeroSection/>
-    <About/>
-    <hr/>
+      <Header/>
+      <HeroSection/>
+      <About/>
+      <hr/>
+      <div className='product-section'>
+        <h2>Товары</h2>
+        <div>
+          <ProductCard/>
+          <ProductCard/>
+          <ProductCard/>
+          <ProductCard/>
+        </div>        
+      </div>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

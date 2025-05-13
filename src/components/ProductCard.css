@@ -1,3 +1,22 @@
 .card {
+    width: 215px;
+    height: 420px;
     border: 0.7px solid rgba(0, 0, 0, 0.3);
+    padding: 2%;
+    text-align: center;    
+    /* align-content: center; */
+}
+
+.card p {
+    margin: 3.5%;
+}
+
+.product-price {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.card button {
+    height: 40px;
+    width: 126px;
 }
