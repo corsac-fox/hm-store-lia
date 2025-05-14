@@ -17,6 +17,7 @@ function App() {
       <HeroSection/>
       <About/>
       <hr/>
+      {/* раздел ниже станет отдельным компонентом впоследствии */}
       <div className='product-section'>
         <h2>Товары</h2>
         <div>
@@ -26,6 +27,7 @@ function App() {
           <ProductCard/>
         </div>        
       </div>
+      {/* раздел ниже будет удалён */}
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
