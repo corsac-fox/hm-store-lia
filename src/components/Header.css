@@ -23,7 +23,7 @@
 .brand-font {
     font: 1.79em 'Ribeye', serif;
     position: absolute;
-    top: 20px;
+    top: 23px;
     left: 13px;
 }
 
@@ -38,6 +38,10 @@
     justify-content: space-between;
 }
 
+.bookmark-link {    
+    color: black;
+}
+
 li {    
     padding: 5px 20px;
     display: inline-block;
@@ -45,5 +49,5 @@ li {
 
 .icons img {
     height: 30px;
-    padding: 20% 0 0 25px;
+    margin: 18% 0 0 30px;
 }

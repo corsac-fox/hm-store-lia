@@ -18,7 +18,7 @@ function App() {
       <About/>
       <hr/>
       {/* раздел ниже станет отдельным компонентом впоследствии */}
-      <div className='product-section'>
+      <div id='product-section'>
         <h2>Товары</h2>
         <div>
           <ProductCard/>

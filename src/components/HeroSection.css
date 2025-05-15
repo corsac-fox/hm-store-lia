@@ -19,7 +19,7 @@
 .hero-content {
     position: relative;
     padding: 5.3em 0 0 6em;
-    max-width: 780px;
+    max-width: 885px;
     letter-spacing: 1px;
 }
 
@@ -34,9 +34,9 @@
 .hero-btns > * {
     height: 43px;
     width: 199px;   
-    margin-right: 13%;
+    margin-right: 11%;
 }
 
-.hero-btns :first-child {
+.accent-btn {
     background-color: white;
 }

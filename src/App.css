@@ -11,19 +11,19 @@ hr {
   margin: 4.5% auto 3% auto;
 }
 
-.product-section h2{
+#product-section h2{
   text-align: center;
   margin: 3% auto;
 }
 
-.product-section div {
+#product-section div {
   display: flex;
-  justify-content: space-between;;
+  justify-content: space-between;
 }
 
 .logo {
   height: 4em;
-  padding: 1.5em;
+  padding: 1em;
   will-change: filter;
   transition: filter 300ms;
 }

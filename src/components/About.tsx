@@ -3,7 +3,7 @@ import './About.css';
 function About () {
     return (
         <div className='about'>
-            <img className='about-photo' src='src\assets\photos\personal.png' alt='the profile photo'/>
+            <img className='about-photo' src='src\assets\photos\personal.png' alt='Личное фото'/>
             <h1>Обо мне</h1>
             <div className='about-content'>
                 <p>Привет!</p>

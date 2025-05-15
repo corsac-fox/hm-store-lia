@@ -1,8 +1,7 @@
 :root {
-  box-sizing: border-box;
-
+  /* box-sizing: border-box; */
   font-family: Roboto, Arial, sans-serif;
-  font-weight: 400;
+  /* font-weight: 400; */
 
   color-scheme: light;
   color: rgba(0, 0, 0, 1);
@@ -23,27 +22,27 @@ a:hover {
 }
 
 body {
-  /*  margin: 0; */
-  /* place-items: center; */
-  /* min-width: 320px;
-  min-height: 100vh; */
+  /* place-items: center; */  
+  /*min-height: 100vh; */
   font-size: 1em; 
+}
+
+body * {
+  font-weight: 400; /* чтобы исключить user agent stylesheet */
+  box-sizing: border-box;
 }
 
 h1 {
   font-size: 6em;
-  font-weight: 400;
   margin: 0;
 }
 
 h2 {
   font-size: 3em;
-  font-weight: 400;
 }
 
 h3 {
   font-size: 2em;
-  font-weight: 400;
   color: white;
 }
 
@@ -51,7 +50,6 @@ button {
   border-radius: 25px;
   border: 1px solid transparent;
   font-size: 1em;
-  font-weight: 400;
   background-color: rgba(255, 236, 92, 1);
   cursor: pointer;
   text-transform: uppercase;
@@ -59,6 +57,11 @@ button {
 }
 button:hover {
   border-color: rgba(181, 33, 7, 1);
+}
+
+button:active {
+  border: none;
+  background-color: rgba(174, 226, 149, 1);
 }
    
 /* button:focus,
