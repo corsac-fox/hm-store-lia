@@ -16,7 +16,7 @@ function Header () {
                 <li>инд. заказ</li>
                 <li>контакты</li>
             </ul>
-            <span className='icons'>
+            <span className='header-icons'>
                 <img src='src/assets/search-icon.png' alt='Поиск' id='search'/>
                 <img src='src/assets/basket-icon.png' alt='Корзина' id='basket'/>
             </span>

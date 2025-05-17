@@ -42,12 +42,12 @@
     color: black;
 }
 
-li {    
+.nav-bar li {    
     padding: 5px 20px;
     display: inline-block;
 }
 
-.icons img {
+.header-icons img {
     height: 30px;
     margin: 18% 0 0 30px;
 }
