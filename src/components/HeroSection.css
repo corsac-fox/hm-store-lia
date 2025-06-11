@@ -37,6 +37,18 @@
     margin-right: 11%;
 }
 
-.accent-btn {
+/* первая кнопка должна быть белой, но не во время нажатия */
+.hero-btns :first-child:not(:active) {
     background-color: white;
 }
+
+/* альтернативный вариант */
+ /* .accent-btn {
+    background-color: white;
+}  */
+
+/* подсветка кнопки при наведении мыши */
+.hero-btns button:hover {
+  filter: drop-shadow(0 0 0.5em white);
+}
+

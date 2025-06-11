@@ -35,16 +35,24 @@
     padding: 0;
     margin: auto;
     flex-grow: 0.45;   /* nav-bar занимает 45% свободного места в header */ 
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .bookmark-link {    
     color: black;
 }
 
-.nav-bar li {    
-    padding: 5px 20px;
-    display: inline-block;
+.nav-bar li { 
+    width: 100%;
+}
+
+.nav-bar a {
+    display: block; /* делает кликабельным весь контейнер, в котором находится ссылка */
+    padding: 5px 20px;    
+}
+
+.nav-bar a:hover {    
+    background-color: rgba(200, 241, 179, 1);
 }
 
 .header-icons img {

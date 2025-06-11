@@ -18,7 +18,8 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #9b3349;
+  /* background-color: rgba(255, 236, 92, 1); */
 }
 
 body {
@@ -56,7 +57,8 @@ button {
   /* transition: border-color 0.25s; */
 }
 button:hover {
-  border-color: rgba(181, 33, 7, 1);
+   /*border-color: rgba(181, 33, 7, 1);  цвет Насти */
+   border-color: #9b3349;
 }
 
 button:active {
