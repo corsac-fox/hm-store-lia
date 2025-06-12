@@ -27,32 +27,14 @@
     left: 13px;
 }
 
-.nav-bar {
-    list-style-type: none;
+.header ul {
     background-color: rgba(174, 226, 149, 1);
-    text-transform: uppercase;
-    text-align: center;
-    padding: 0;
     margin: auto;
-    flex-grow: 0.45;   /* nav-bar занимает 45% свободного места в header */ 
-    /* justify-content: space-between; */
+    text-transform: uppercase;
 }
 
-.bookmark-link {    
-    color: black;
-}
-
-.nav-bar li { 
-    width: 100%;
-}
-
-.nav-bar a {
-    display: block; /* делает кликабельным весь контейнер, в котором находится ссылка */
-    padding: 5px 20px;    
-}
-
-.nav-bar a:hover {    
-    background-color: rgba(200, 241, 179, 1);
+.header a {
+    padding: 5px 20px;
 }
 
 .header-icons img {

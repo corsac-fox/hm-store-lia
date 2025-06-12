@@ -1,14 +1,43 @@
 #root {
-  max-width: 1110px;  
-  margin: auto;
-  /* padding: 2rem; */
+  max-width: 1440px;
+}
+
+#root > *:not(.footer, hr) {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 hr {
+  border: none;
   border-top: 6px solid rgba(174, 226, 149, 1);
-  border-left: none;
   max-width: 730px;
   margin: 4.5% auto 3% auto;
+}
+
+.nav-bar {
+    list-style-type: none;    
+    text-align: center;
+    padding: 0;
+    flex-grow: 0.45;   /* nav-bar занимает 45% свободного места в колонтитуле */
+    /* justify-content: space-between; */
+}
+
+.nav-bar li { 
+    width: 100%;
+}
+
+.nav-bar a {
+    display: block; /* делает кликабельным весь контейнер, в котором находится ссылка */
+        
+}
+
+.nav-bar a:hover {    
+    background-color: rgba(200, 241, 179, 1);
+}
+
+.bookmark-link {    
+    color: black;
 }
 
 #product-section h2{

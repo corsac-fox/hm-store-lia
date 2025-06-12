@@ -7,6 +7,7 @@ import HeroSection from './components/HeroSection'
 import './fonts.css'
 import About from './components/About'
 import ProductCard from './components/ProductCard'
+import Footer from './components/Footer'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -27,6 +28,7 @@ function App() {
           <ProductCard/>
         </div>        
       </div>
+      <Footer/>
       {/* раздел ниже будет удалён */}
       <div>
         <a href="https://vite.dev" target="_blank">
@@ -35,17 +37,7 @@ function App() {
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
-      </div>
-      <h5>Vite + React</h5>
-      {/* <div*/}
-      <div>
-        {/* <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button> */}
-        {/* <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p> */}
-      </div>
+      </div>      
     </>
   )
 }

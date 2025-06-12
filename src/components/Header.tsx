@@ -18,8 +18,8 @@ function Header () {
                 <li><a href='#product-section' className='bookmark-link'>контакты</a></li>
             </ul>
             <span className='header-icons'>
-                <img src='src/assets/search-icon.png' alt='Поиск' id='search'/>
-                <img src='src/assets/basket-icon.png' alt='Корзина' id='basket'/>
+                <img src='src\assets\images\ui\search-icon.png' alt='Поиск' id='search'/>
+                <img src='src\assets\images\ui\basket-icon.png' alt='Корзина' id='basket'/>
             </span>
         </span>
     )

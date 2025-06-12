@@ -1,6 +1,6 @@
 .hero-bg {
     position: relative;        
-    background: url('src/assets/hero-bg.png') no-repeat 0 71%;
+    background: url('src/assets/images/backgrounds/hero-bg.png') no-repeat 0 71%;
     background-size: 1110px;
     min-height: 496px;
     margin-bottom: 5%;
@@ -50,5 +50,6 @@
 /* подсветка кнопки при наведении мыши */
 .hero-btns button:hover {
   filter: drop-shadow(0 0 0.5em white);
+  border: none;
 }
 
