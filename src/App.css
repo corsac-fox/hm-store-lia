@@ -1,8 +1,9 @@
 #root {
   max-width: 1440px;
+  margin: auto;
 }
 
-#root > *:not(.footer, hr) {
+#root > *:not(footer, hr) {
   max-width: 1110px;
   margin-left: auto;
   margin-right: auto;
@@ -19,17 +20,17 @@ hr {
     list-style-type: none;    
     text-align: center;
     padding: 0;
+    overflow: hidden;
     flex-grow: 0.45;   /* nav-bar занимает 45% свободного места в колонтитуле */
-    /* justify-content: space-between; */
 }
 
 .nav-bar li { 
-    width: 100%;
+    width: 25%;
+    float: left;
 }
 
 .nav-bar a {
-    display: block; /* делает кликабельным весь контейнер, в котором находится ссылка */
-        
+    display: block; /* делает кликабельным весь контейнер, в котором находится ссылка */        
 }
 
 .nav-bar a:hover {    

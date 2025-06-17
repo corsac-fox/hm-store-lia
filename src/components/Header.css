@@ -1,39 +1,40 @@
-.header {
+header {
     display: flex;
     margin: 3% 0;
 }
 
-.header > *{
-    display: inherit;
+.logo-contaner {
+    flex-grow: 0.22;
 }
 
 #logo {
     height: 67.66px;
+    float: left;
 }
 
 .logo-label {
-    padding: 5px 10px;
-    position: relative;
+    margin: 0;
+    line-height: 0.45;
+    text-align: center;
+    padding-top: 0.7em;
 }
 
-.logo-label > span{
+.logo-label {
     font-size: 1.2em;
 }
 
 .brand-font {
-    font: 1.79em 'Ribeye', serif;
-    position: absolute;
-    top: 23px;
-    left: 13px;
+    font: 1.6em 'Ribeye', serif;
+    padding-left: 0.15em;
 }
 
-.header ul {
+header ul {
     background-color: rgba(174, 226, 149, 1);
     margin: auto;
     text-transform: uppercase;
 }
 
-.header a {
+header a {
     padding: 5px 20px;
 }
 

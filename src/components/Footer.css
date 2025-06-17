@@ -1,4 +1,4 @@
-.footer {
+footer {
     display: flex;
     background-color: rgba(174, 226, 149, 1);
     align-items: center;
@@ -8,16 +8,13 @@
     justify-content: space-between;
 }
 
-.footer > *{
-    display: inherit;
-}
-
 .footer-icons {
     flex-grow: 0.15;
-    height: 50px;
+    display: inherit;
     justify-content: flex-end;
 }
 
 .footer-icons img {
     margin-left: 20%;
+    height: 50px;
 }

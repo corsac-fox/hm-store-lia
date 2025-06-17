@@ -2,7 +2,7 @@ import './Footer.css';
 
 function Footer() {
     return (
-        <div className='footer'>
+        <footer>
             <span>© 2023 Embroidery by Lia</span>
             <ul className='nav-bar'>
                 {/* все ссылки пока ведут на один и тот же раздел */}
@@ -15,7 +15,7 @@ function Footer() {
                 <img src='src\assets\images\ui\vk-icon.png' alt='Ссылка на ВК' id='vk'/>
                 <img src='src\assets\images\ui\tlg-icon.png' alt='Ссылка на Телеграм' id='tlg'/>
             </div>
-        </div>
+        </footer>
     )
 }
 
