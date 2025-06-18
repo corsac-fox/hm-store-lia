@@ -5,7 +5,7 @@ import './ProductCard.css';
 function ProductCard () {
     return (
         <span className='card'>
-            <img src='\products\shopper-bag.jpg' alt='Шоппер с курочкой' />
+            <img src='\products\shopper-bag-1.jpg' alt='Шоппер с курочкой' />
             <p>Шоппер с курочкой</p>
             <p className='product-price'>2 700 ₽</p>
             <button>купить</button>
