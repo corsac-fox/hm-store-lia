@@ -6,8 +6,8 @@ import Header from './components/Header'
 import HeroSection from './components/HeroSection'
 import './fonts.css'
 import About from './components/About'
-import ProductCard from './components/ProductCard'
 import Footer from './components/Footer'
+import PrevProductSection from './components/PrevProductSection'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -18,16 +18,8 @@ function App() {
       <HeroSection/>
       <About/>
       <hr/>
-      {/* раздел ниже станет отдельным компонентом впоследствии */}
-      <div id='product-section'>
-        <h2>Товары</h2>
-        <div>
-          <ProductCard/>
-          <ProductCard/>
-          <ProductCard/>
-          <ProductCard/>
-        </div>        
-      </div>
+      <PrevProductSection/>
+      <hr/>
       <Footer/>
       {/* раздел ниже будет удалён */}
       <div>
