@@ -18,7 +18,13 @@
     max-width: 610px;
 }
 
+.about {
+    position: relative;
+    overflow: clip;
+}
+
 .about-photo {
-    float: right;
     max-width: 445px;
+    position: absolute;
+    left: 665px;
 }
