@@ -12,11 +12,11 @@ function Header () {
                 </p>                 
             </div>
             <ul className='nav-bar'>
-                {/* все ссылки пока ведут на один и тот же раздел */}
-                <li><a href='#product-section' className='bookmark-link'>главная</a></li>
+                {/* пока есть ссылка только на раздел 'товары' */}
+                <li><a href='#main-section' className='bookmark-link'>главная</a></li>
                 <li><a href='#product-section' className='bookmark-link'>товары</a></li>
-                <li><a href='#product-section' className='bookmark-link'>инд. заказ</a></li>
-                <li><a href='#product-section' className='bookmark-link'>контакты</a></li>
+                <li><a href='#custom-order' className='bookmark-link'>инд. заказ</a></li>
+                <li><a href='#contacts' className='bookmark-link'>контакты</a></li>
             </ul>
             <span className='header-icons'>
                 <img src='src\assets\images\ui\search-icon.png' alt='Поиск' id='search'/>
