@@ -3,7 +3,7 @@ import './Footer.css';
 function Footer() {
     return (
         <footer>
-            <span>© 2023 Embroidery by Lia</span>
+            <span>&copy; 2023 Embroidery by Lia</span>
             <ul className='nav-bar'>
                 {/* все ссылки пока ведут на один и тот же раздел */}
                 <li><a href='#product-section' className='bookmark-link'>Главная</a></li>
