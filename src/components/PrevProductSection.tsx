@@ -5,7 +5,7 @@ import './ProductCard.css';
 function PrevProductSection () {
     return (
         // атрибут id нужен для навигации по странице
-        <div id='product-section'>
+        <section id='product-section'>
             <h2>Товары</h2>
             <div className='card-contaner'>
                 {mockProducts.map(product => (
@@ -27,7 +27,7 @@ function PrevProductSection () {
                     </div>                    
                 </div>
             </div>        
-        </div>
+        </section>
     )
 }
 

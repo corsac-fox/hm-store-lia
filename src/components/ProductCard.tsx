@@ -4,12 +4,12 @@ import './ProductCard.css';
 
 function ProductCard () {
     return (
-        <span className='card'>
+        <article className='card'>
             <img src='\products\shopper-bag-1.jpg' alt='Шоппер с курочкой' />
             <p>Шоппер с курочкой</p>
             <p className='product-price'>2 700 ₽</p>
             <button>купить</button>
-        </span>
+        </article>
     )
 }
 
