@@ -15,7 +15,7 @@ function PrevProductSection () {
                     {/* Для разделения числа на разряды - в будущем - 
                     https://codepen.io/IgorLesnevskiy/pen/QpBaBd - 
                     или что=то подобное */}
-                        <p className='product-price'>{product.price} ₽</p>
+                        <p className='product-price'>{product.price} &#8381;</p>
                         <button>купить</button>
                     </div>
             
