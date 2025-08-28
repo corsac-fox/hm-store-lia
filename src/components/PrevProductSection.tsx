@@ -6,7 +6,7 @@ function PrevProductSection () {
     return (
         // атрибут id нужен для навигации по странице
         <section id='product-section'>
-            <h2>Товары</h2>
+            <h2 className='section-title'>Товары</h2>
             <div className='card-contaner'>
                 {mockProducts.map(product => (
                     <div className='card' key={product.id}>
@@ -20,11 +20,10 @@ function PrevProductSection () {
                     </div>
             
                 ))}
-                <div className='card-arrow'>
+                <div className='see-all-btn'>
                     <h3>Смотреть все</h3>
-                    <div>
-                        <img src='src\assets\images\ui\arrow.png' ></img>
-                    </div>                    
+                    <br/>
+                    <img src='src\assets\images\ui\arrow.png'/>
                 </div>
             </div>        
         </section>

@@ -1,6 +1,5 @@
-#product-section h2{
+#product-section {
   text-align: center;
-  margin: 3% auto;
 }
 
 .card-contaner {
@@ -9,16 +8,16 @@
   row-gap: 24px;
 }
 
-.card-arrow {
-    padding-top: 55%;
+.see-all-btn {
+  padding-top: 55%;  
 }
 
-.card-arrow * {
-    color: black;
-    text-align: center;
-    margin: 5% auto;   
+.see-all-btn :first-child {
+  /* margin: 7% 0; */
+  display: inline-block;
 }
 
-.card-arrow div, .card-arrow img {
-    width: 76px;
+.see-all-btn img {
+  width: 76px;
+  height: 76px;
 }

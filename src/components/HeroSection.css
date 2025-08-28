@@ -27,6 +27,10 @@
     color: rgba(255, 236, 92, 1);
 }
 
+.hero-content h3 {
+    color: white;
+}
+
 .hero-btns {
     padding-top: 3%;
 }

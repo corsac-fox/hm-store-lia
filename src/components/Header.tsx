@@ -18,10 +18,10 @@ function Header () {
                 <li><a href='#custom-order' className='bookmark-link'>инд. заказ</a></li>
                 <li><a href='#contacts' className='bookmark-link'>контакты</a></li>
             </ul>
-            <span className='header-icons'>
+            <div className='header-icons'>
                 <img src='src\assets\images\ui\search-icon.png' alt='Поиск' id='search'/>
                 <img src='src\assets\images\ui\basket-icon.png' alt='Корзина' id='basket'/>
-            </span>
+            </div>
         </header>
     )
 }

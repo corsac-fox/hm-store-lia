@@ -41,6 +41,10 @@ hr {
     color: black;
 }
 
+.section-title {
+  margin: 3% auto;
+}
+
 .logo {
   height: 4em;
   padding: 1em;

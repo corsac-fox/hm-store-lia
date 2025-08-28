@@ -8,6 +8,7 @@ import './fonts.css'
 import About from './components/About'
 import Footer from './components/Footer'
 import PrevProductSection from './components/PrevProductSection'
+import CustomOrder from './components/CustomOrder'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
       <hr/>
       <PrevProductSection/>
       <hr/>
+      <CustomOrder/>
       <Footer/>
       {/* раздел ниже будет удалён */}
       <div>
