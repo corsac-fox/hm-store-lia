@@ -6,6 +6,7 @@
   display: grid;
   grid-template-columns: auto auto auto auto;
   row-gap: 24px;
+  padding-bottom: 24px;
 }
 
 .see-all-btn {

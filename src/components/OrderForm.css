@@ -2,12 +2,34 @@ form {
     border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
+.order-form {
+    width: 730px;
+    height: 725px;
+    margin: auto;
+}
+
 .order-title {
     background-color: rgba(174, 226, 149, 1);
+    height: 106px;
+    margin: 0;
+    padding-top: 2%;
 }
 
 .form-fields {
     margin: 0 5%;
-    /* border: 1px solid; */
-    /* border-radius: 5%; */
+    padding: 18px;
+}
+
+.form-fields * {
+    font-size: 24px;
+    width: 600px;
+    height: 75px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.2em;
+    margin: 10px;
+    padding: 30px;
+}
+
+.form-fields textarea {
+    height: 200px;
 }

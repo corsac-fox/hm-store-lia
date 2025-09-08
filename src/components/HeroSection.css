@@ -35,9 +35,7 @@
     padding-top: 3%;
 }
 
-.hero-btns > * {
-    height: 43px;
-    width: 199px;   
+.hero-btns > * {       
     margin-right: 11%;
 }
 

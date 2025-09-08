@@ -1,4 +1,5 @@
 import './CustomOrder.css';
+import OrderForm from './OrderForm';
 
 function CustomOrder () {
     return (
@@ -17,7 +18,7 @@ function CustomOrder () {
                     <h3>Смотреть все</h3>
                     <img src='src\assets\images\ui\arrow.png'/>
                 </div>
-                
+                <OrderForm/>
             </div>
         </section>
     )
