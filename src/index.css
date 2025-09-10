@@ -45,7 +45,7 @@ h3 {
   font-size: 2em;
 }
 
-button {  
+button, input[type='submit'] {  
   border-radius: 25px;
   border: 1px solid transparent;
   font-size: 1em;

@@ -14,12 +14,12 @@ function CustomOrder () {
                     <img src='products/custom/custom_order_02.jpg' alt='custom order example'/>
                     <p>Футболка "Лис-программист"</p>
                 </article>
-                <div className='see-all-btn'>
-                    <h3>Смотреть все</h3>
-                    <img src='src\assets\images\ui\arrow.png'/>
-                </div>
-                <OrderForm/>
             </div>
+            <div className='see-all-btn'>
+                <h3>Смотреть все</h3>
+                <img src='src\assets\images\ui\arrow.png'/>
+            </div>
+            <OrderForm/>
         </section>
     )
 }

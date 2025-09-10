@@ -32,4 +32,5 @@ form {
 
 .form-fields textarea {
     height: 200px;
+    resize: none;
 }

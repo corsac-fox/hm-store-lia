@@ -10,15 +10,20 @@
 }
 
 .see-all-btn {
-  padding-top: 55%;  
+  padding-top: 1em;  
 }
 
-.see-all-btn :first-child {
-  /* margin: 7% 0; */
+.see-all-btn * {
   display: inline-block;
 }
 
+.see-all-btn > :first-child {
+  margin: 7% 0;
+  
+}
+
 .see-all-btn img {
+  margin-top: 30px;
   width: 76px;
   height: 76px;
 }

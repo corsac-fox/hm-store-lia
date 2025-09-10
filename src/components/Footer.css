@@ -14,7 +14,10 @@ footer {
     justify-content: flex-end;
 }
 
+.footer-icons a {
+    margin-left: 20%;    
+}
+
 .footer-icons img {
-    margin-left: 20%;
     height: 50px;
 }

@@ -12,8 +12,12 @@ function Footer() {
                 <li><a href='#product-section' className='bookmark-link'>Контакты</a></li>
             </ul>
             <div className='footer-icons'>
-                <img src='src\assets\images\ui\vk-icon.png' alt='Ссылка на ВК' id='vk'/>
-                <img src='src\assets\images\ui\tlg-icon.png' alt='Ссылка на Телеграм' id='tlg'/>
+                <a href='https://vk.com/liaembr' target='_blank'>
+                    <img src='src\assets\images\ui\vk-icon.png' alt='Ссылка на ВК' id='vk'/>
+                </a>
+                <a href='https://t.me/liaembr' target='_blank'>
+                    <img src='src\assets\images\ui\tlg-icon.png' alt='Ссылка на Телеграм' id='tlg'/>
+                </a>                
             </div>
         </footer>
     )
