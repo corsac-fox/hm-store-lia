@@ -27,3 +27,7 @@
     height: 368px;
     object-fit: cover;
 }
+
+#custom-order .see-all-btn {
+    margin: 0 0 5% 2%;
+}

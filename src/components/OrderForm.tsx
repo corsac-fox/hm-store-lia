@@ -4,7 +4,7 @@ import './OrderForm.css';
 
 function OrderForm () {
     return (
-        <form className='order-form'>
+        <form className='order-form' target='_blank' method='post'>
             <h3 className="order-title">Оставьте заявку на расчет стоимости индивидуального заказа</h3>            
             <div className='form-fields'>
                 <input type="text" name='username' placeholder="Ваше имя"/>

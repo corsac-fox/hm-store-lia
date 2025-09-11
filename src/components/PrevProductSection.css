@@ -9,21 +9,10 @@
   padding-bottom: 24px;
 }
 
-.see-all-btn {
-  padding-top: 1em;  
+.card-contaner .see-all-btn {
+  flex-direction: column;
 }
 
-.see-all-btn * {
-  display: inline-block;
-}
-
-.see-all-btn > :first-child {
+.card-contaner .see-all-btn :first-child {
   margin: 7% 0;
-  
-}
-
-.see-all-btn img {
-  margin-top: 30px;
-  width: 76px;
-  height: 76px;
 }

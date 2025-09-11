@@ -22,7 +22,6 @@ function PrevProductSection () {
                 ))}
                 <div className='see-all-btn'>
                     <h3>Смотреть все</h3>
-                    <br/>
                     <img src='src\assets\images\ui\arrow.png'/>
                 </div>
             </div>        

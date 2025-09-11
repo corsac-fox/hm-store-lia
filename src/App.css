@@ -45,6 +45,22 @@ hr {
   margin: 3% auto;
 }
 
+.see-all-btn {
+  display: flex;
+  align-items: center; /* по вертикали */
+  justify-content: center;
+  
+}
+
+.see-all-btn > :first-child {
+  margin: 3% 2%;
+}
+
+.see-all-btn img {
+  width: 76px;
+  height: 76px;
+}
+
 .logo {
   height: 4em;
   padding: 1em;
