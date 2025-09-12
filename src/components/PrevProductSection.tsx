@@ -16,7 +16,7 @@ function PrevProductSection () {
                     https://codepen.io/IgorLesnevskiy/pen/QpBaBd - 
                     или что=то подобное */}
                         <p className='product-price'>{product.price} &#8381;</p>
-                        <button>купить</button>
+                        <button type="button">купить</button>
                     </div>
             
                 ))}
